@@ -1,0 +1,5 @@
+.register-container{width: 420px; padding: 10px; margin: 0 auto; background: rgba(150, 150, 150, 0.5)}
+
+    #name , #password, #repassword{width: 400px; height: 30px; padding: 5px; font-size: 22px; margin: 5px 0}
+    #sign{width: 80px;  height: 30px; font-size: 18px}
+    #name:focus, #password:focus, #log:focus{outline: none}

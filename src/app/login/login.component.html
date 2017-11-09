@@ -1,0 +1,12 @@
+<div class="login-container">
+  <h1>F1 Soft Log In!</h1>
+  <div class="login">
+    <form (submit)="login($event,name.value,password.value)">
+      <input type="text" placeholder="User Name.." id="name" #name><br>
+      <input type="password" placeholder="Password.." id="password" #password><br>
+      <input type="submit" value="Log In" id="log">      
+    </form>    
+    <hr>
+    New User <a href="">Sign Up</a>
+  </div>
+</div>

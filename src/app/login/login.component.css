@@ -1,0 +1,5 @@
+.login-container{width: 420px; padding: 10px; margin: 0 auto; background: rgba(150, 150, 150, 0.5)}
+    .login a{text-decoration: none; color: #000; font-size: 16px}
+        #name , #password{width: 400px; height: 30px; padding: 5px; font-size: 22px; margin: 5px 0}
+        #log{width: 80px;  height: 30px; font-size: 18px}
+        #name:focus, #password:focus, #log:focus{outline: none}
